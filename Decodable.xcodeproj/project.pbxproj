@@ -86,14 +86,14 @@
 		FF0060981B5453C600D8CB77 /* DecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE7B5711B4C9FB900837609 /* DecodableTests.swift */; };
 		FF00609E1B5454F400D8CB77 /* DecodableExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00609D1B5454F400D8CB77 /* DecodableExtensionTests.swift */; };
 		FF00609F1B5454F400D8CB77 /* DecodableExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00609D1B5454F400D8CB77 /* DecodableExtensionTests.swift */; };
-		FF0060A41B5464FD00D8CB77 /* MissingKey.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A01B5464FD00D8CB77 /* MissingKey.json */; };
-		FF0060A51B5464FD00D8CB77 /* MissingKey.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A01B5464FD00D8CB77 /* MissingKey.json */; };
+		FF0060A41B5464FD00D8CB77 /* missingKey.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A01B5464FD00D8CB77 /* missingKey.json */; };
+		FF0060A51B5464FD00D8CB77 /* missingKey.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A01B5464FD00D8CB77 /* missingKey.json */; };
 		FF0060A61B5464FD00D8CB77 /* NoJsonObject.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A11B5464FD00D8CB77 /* NoJsonObject.json */; };
 		FF0060A71B5464FD00D8CB77 /* NoJsonObject.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A11B5464FD00D8CB77 /* NoJsonObject.json */; };
 		FF0060A81B5464FD00D8CB77 /* Repository.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A21B5464FD00D8CB77 /* Repository.json */; };
 		FF0060A91B5464FD00D8CB77 /* Repository.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A21B5464FD00D8CB77 /* Repository.json */; };
-		FF0060AA1B5464FD00D8CB77 /* TypeMismatch.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A31B5464FD00D8CB77 /* TypeMismatch.json */; };
-		FF0060AB1B5464FD00D8CB77 /* TypeMismatch.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A31B5464FD00D8CB77 /* TypeMismatch.json */; };
+		FF0060AA1B5464FD00D8CB77 /* typeMismatch.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A31B5464FD00D8CB77 /* typeMismatch.json */; };
+		FF0060AB1B5464FD00D8CB77 /* typeMismatch.json in Resources */ = {isa = PBXBuildFile; fileRef = FF0060A31B5464FD00D8CB77 /* typeMismatch.json */; };
 		FF0060B01B546FB100D8CB77 /* DecodableOperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0060AF1B546FB100D8CB77 /* DecodableOperatorsTests.swift */; };
 		FF0060B11B546FB100D8CB77 /* DecodableOperatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0060AF1B546FB100D8CB77 /* DecodableOperatorsTests.swift */; };
 		FFE77E211B5396FB00E52F28 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE77E1E1B5391AD00E52F28 /* Repository.swift */; };
@@ -157,10 +157,10 @@
 		9E2DA7641CBC802200CAF3DF /* Vehicle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Vehicle.json; path = JSONExamples/Vehicle.json; sourceTree = "<group>"; };
 		D0DC546F1B7814D200F79CB0 /* Decodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Decodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF00609D1B5454F400D8CB77 /* DecodableExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableExtensionTests.swift; sourceTree = "<group>"; };
-		FF0060A01B5464FD00D8CB77 /* MissingKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MissingKey.json; path = JSONExamples/MissingKey.json; sourceTree = "<group>"; };
+		FF0060A01B5464FD00D8CB77 /* missingKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = missingKey.json; path = JSONExamples/missingKey.json; sourceTree = "<group>"; };
 		FF0060A11B5464FD00D8CB77 /* NoJsonObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = NoJsonObject.json; path = JSONExamples/NoJsonObject.json; sourceTree = "<group>"; };
 		FF0060A21B5464FD00D8CB77 /* Repository.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Repository.json; path = JSONExamples/Repository.json; sourceTree = "<group>"; };
-		FF0060A31B5464FD00D8CB77 /* TypeMismatch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TypeMismatch.json; path = JSONExamples/TypeMismatch.json; sourceTree = "<group>"; };
+		FF0060A31B5464FD00D8CB77 /* typeMismatch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = typeMismatch.json; path = JSONExamples/typeMismatch.json; sourceTree = "<group>"; };
 		FF0060AF1B546FB100D8CB77 /* DecodableOperatorsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableOperatorsTests.swift; sourceTree = "<group>"; };
 		FFE77E1E1B5391AD00E52F28 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -306,10 +306,10 @@
 		FF0060991B54544A00D8CB77 /* JSONExamples */ = {
 			isa = PBXGroup;
 			children = (
-				FF0060A01B5464FD00D8CB77 /* MissingKey.json */,
+				FF0060A01B5464FD00D8CB77 /* missingKey.json */,
 				FF0060A11B5464FD00D8CB77 /* NoJsonObject.json */,
 				FF0060A21B5464FD00D8CB77 /* Repository.json */,
-				FF0060A31B5464FD00D8CB77 /* TypeMismatch.json */,
+				FF0060A31B5464FD00D8CB77 /* typeMismatch.json */,
 				9E2DA7641CBC802200CAF3DF /* Vehicle.json */,
 			);
 			name = JSONExamples;
@@ -469,7 +469,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = anviking;
 				TargetAttributes = {
 					17FB80F61B530FED0012F106 = {
@@ -480,11 +480,11 @@
 					};
 					8FE7B5611B4C9FB900837609 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 					8FE7B56B1B4C9FB900837609 = {
 						CreatedOnToolsVersion = 7.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 					D0DC546E1B7814D200F79CB0 = {
 						CreatedOnToolsVersion = 7.0;
@@ -494,10 +494,11 @@
 			};
 			buildConfigurationList = 8FE7B55C1B4C9FB900837609 /* Build configuration list for PBXProject "Decodable" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 8FE7B5581B4C9FB900837609;
 			productRefGroup = 8FE7B5631B4C9FB900837609 /* Products */;
@@ -526,8 +527,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0060A51B5464FD00D8CB77 /* MissingKey.json in Resources */,
-				FF0060AB1B5464FD00D8CB77 /* TypeMismatch.json in Resources */,
+				FF0060A51B5464FD00D8CB77 /* missingKey.json in Resources */,
+				FF0060AB1B5464FD00D8CB77 /* typeMismatch.json in Resources */,
 				9E2DA7661CBC802200CAF3DF /* Vehicle.json in Resources */,
 				FF0060A91B5464FD00D8CB77 /* Repository.json in Resources */,
 				FF0060A71B5464FD00D8CB77 /* NoJsonObject.json in Resources */,
@@ -552,8 +553,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0060A41B5464FD00D8CB77 /* MissingKey.json in Resources */,
-				FF0060AA1B5464FD00D8CB77 /* TypeMismatch.json in Resources */,
+				FF0060A41B5464FD00D8CB77 /* missingKey.json in Resources */,
+				FF0060AA1B5464FD00D8CB77 /* typeMismatch.json in Resources */,
 				9E2DA7651CBC802200CAF3DF /* Vehicle.json in Resources */,
 				FF0060A81B5464FD00D8CB77 /* Repository.json in Resources */,
 				FF0060A61B5464FD00D8CB77 /* NoJsonObject.json in Resources */,
@@ -581,7 +582,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -z \"$CI\" ]; then\n    cd \"${SRCROOT}/Generator\"\n    ./Generator.swift\nfi";
+			shellScript = "if [ -z \"$CI\" ]; then\n    cd \"${SRCROOT}/Generator\"\n    ./Generator.swift\nfi\n";
 		};
 		8F0062451C81F348007BCF48 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -882,6 +883,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -890,12 +892,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -945,6 +949,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -953,12 +958,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1015,8 +1022,7 @@
 				PRODUCT_NAME = Decodable;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1038,8 +1044,7 @@
 				PRODUCT_NAME = Decodable;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1052,8 +1057,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anviking.DecodableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1067,8 +1071,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = anviking.DecodableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
