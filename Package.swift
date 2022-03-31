@@ -7,7 +7,7 @@ let package = Package(
   products: [
     .library(
         name: "Decodable",
-        targets: ["Decodable"]),
+        targets: ["Decodable"]
     ),
   ],
   targets: [
