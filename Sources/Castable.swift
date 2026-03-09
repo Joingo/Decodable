@@ -42,16 +42,16 @@ extension Decodable where Self: DynamicDecodable, Self.DecodedType == Self {
 }
 
 extension String: Decodable, DynamicDecodable {
-    public static var decoder: (Any) throws -> String = { try cast($0) }
+    nonisolated(unsafe) public static var decoder: (Any) throws -> String = { try cast($0) }
 }
 extension Int: Decodable, DynamicDecodable {
-    public static var decoder: (Any) throws -> Int = { try cast($0) }
+    nonisolated(unsafe) public static var decoder: (Any) throws -> Int = { try cast($0) }
 }
 extension Double: Decodable, DynamicDecodable {
-    public static var decoder: (Any) throws -> Double = { try cast($0) }
+    nonisolated(unsafe) public static var decoder: (Any) throws -> Double = { try cast($0) }
 }
 extension Bool: Decodable, DynamicDecodable {
-    public static var decoder: (Any) throws -> Bool = { try cast($0) }
+    nonisolated(unsafe) public static var decoder: (Any) throws -> Bool = { try cast($0) }
 }
 
 private let iso8601DateFormatter: DateFormatter = {
@@ -63,7 +63,7 @@ private let iso8601DateFormatter: DateFormatter = {
 
 extension Date: Decodable, DynamicDecodable {
     /// Default decoder is `Date.decoder(using: iso8601DateFormatter)`
-    public static var decoder: (Any) throws -> Date = Date.decoder(using: iso8601DateFormatter)
+    nonisolated(unsafe) public static var decoder: (Any) throws -> Date = Date.decoder(using: iso8601DateFormatter)
     
     /// Create a decode closure using a given formatter
     ///
@@ -92,7 +92,7 @@ extension NSDictionary: Decodable {
 }
 
 extension NSArray: DynamicDecodable {
-    public static var decoder: (Any) throws -> NSArray = { try cast($0) }
+    nonisolated(unsafe) public static var decoder: (Any) throws -> NSArray = { try cast($0) }
     public static func decode(_ json: Any) throws -> NSArray {
         return try decoder(json)
     }
@@ -101,7 +101,7 @@ extension NSArray: DynamicDecodable {
 
 
 extension URL: DynamicDecodable, Decodable {
-	public static var decoder: (Any) throws -> URL = { object in
+    nonisolated(unsafe) public static var decoder: (Any) throws -> URL = { object in
 		let string = try String.decode(object)
 		guard let url = URL(string: string) else {
 			let metadata = DecodingError.Metadata(object: object)
