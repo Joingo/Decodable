@@ -1,4 +1,4 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 6.2
 
 import PackageDescription
 
@@ -7,13 +7,15 @@ let package = Package(
   products: [
     .library(
         name: "Decodable",
+        type: .dynamic,
         targets: ["Decodable"]
     ),
   ],
   targets: [
     .target(
       name: "Decodable",
-      dependencies: []
+      dependencies: [],
+      swiftSettings: [.unsafeFlags(["-enable-library-evolution"])]
     ),
    ]   
 )
