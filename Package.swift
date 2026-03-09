@@ -8,14 +8,18 @@ let package = Package(
     .library(
         name: "Decodable",
         type: .dynamic,
-        targets: ["Decodable"]
+        targets: ["Decodable", "DecodableCore"]
     ),
   ],
   targets: [
     .target(
-      name: "Decodable",
+      name: "DecodableCore",
       dependencies: [],
       swiftSettings: [.unsafeFlags(["-enable-library-evolution"])]
     ),
-   ]   
+    .target(
+      name: "Decodable",
+      dependencies: ["DecodableCore"]
+    ),
+   ]
 )

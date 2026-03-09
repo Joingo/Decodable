@@ -1,0 +1,11 @@
+module Decodable {
+  header "Decodable.h"
+  export *
+  export DecodableCore
+
+  module Decodable {
+    header "Decodable.h"
+    export *
+    export DecodableCore
+  }
+}
